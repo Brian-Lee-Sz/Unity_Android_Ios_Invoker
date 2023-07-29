@@ -1,0 +1,9 @@
+rootProject.name = "AndroidLibraryForUnity"
+include ':app'
+include ':GoogleSignIn'
+include ':UnityLib'
+include ':GooglePay'
+include ':UnityInvoke'
+include ':GoogleAds'
+include ':Push'
+include ':FBLogin'
