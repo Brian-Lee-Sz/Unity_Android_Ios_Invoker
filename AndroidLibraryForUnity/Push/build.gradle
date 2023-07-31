@@ -54,3 +54,9 @@ android {
         }
     }
 }
+task copyJsonFile{
+    copy {
+        from("./google-services.json")
+        into("${project.rootDir.absolutePath}/../Assets/Plugins/Android/")
+    }
+}
