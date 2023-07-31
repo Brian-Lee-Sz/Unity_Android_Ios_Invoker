@@ -6,5 +6,9 @@
  1、UnityInvoker:unity和android之间的相互调用传参\
  2、常用sdk接入：Facebook、googlePay、GoogleSignIn、Push、Ads等\
  3、选择模块build之后会自动将相应aar导入到unity-assets-Plugin-android目录
+ # Grade依赖查看
+ 1、as默认布局右上角Grade选项
+ 2、需要将File-》Settings-》Experimental->Do not build grade task list during Grade sync选择去除勾选
+ 2、然后就可在右上角Grade视角查看到app-》Help-》Dependences，执行可以在console打印出相关的依赖信息
 # 参考资料
  ##https://zhuanlan.zhihu.com/p/119052124
